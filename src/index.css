@@ -1,3 +1,123 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+@layer base {
+    @font-face {
+      font-family: 'Avenir Next';
+      src: local('Avenir Next'),
+        url('https://cdn.indmoney.com/static/fonts/500.woff2')
+          format('woff2');
+      font-weight: normal;
+      font-variant: normal;
+      /* https://css-tricks.com/almanac/properties/f/font-display/ */
+      /* https://css-tricks.com/almanac/properties/f/font-display/ */
+      font-display: fallback;
+    }
+    @font-face {
+      font-family: 'Avenir Next';
+      src: local('Avenir Next'),
+        url('https://cdn.indmoney.com/static/fonts/500.woff2')
+          format('woff2');
+      font-weight: 500;
+      font-variant: normal;
+      font-display: fallback;
+    }
+    @font-face {
+      font-family: 'Avenir Next';
+      src: local('Avenir Next'),
+        url('https://cdn.indmoney.com/static/fonts/600.woff2')
+          format('woff2');
+      font-weight: 600;
+      font-variant: normal;
+      font-display: fallback;
+    }
+    ::-webkit-scrollbar {
+      display: none;
+      /* make scrollbar transparent */
+    }
+    .webkitAppearance {
+      -webkit-appearance: none;
+    }
+}
+
+@keyframes ind-credit-card-stocks-slide-up {
+    0% {
+      transform: translateY(0px);
+    }
+    10% {
+      transform: translateY(-56px);
+    }
+    20% {
+      transform: translateY(-56px);
+    }
+    30% {
+      transform: translateY(-112px);
+    }
+    40% {
+      transform: translateY(-112px);
+    }
+    50% {
+      transform: translateY(-168px);
+    }
+    60% {
+      transform: translateY(-168px);
+    }
+    70% {
+      transform: translateY(-224px);
+    }
+    80% {
+      transform: translateY(-224px);
+    }
+    90% {
+      transform: translateY(0px);
+    }
+    100% {
+      transform: translateY(0px);
+    }
+  }
+  
+  @keyframes ind-credit-card-stocks-slide-down {
+    0% {
+      transform: translateY(-224px);
+    }
+    10% {
+      transform: translateY(-168px);
+    }
+    20% {
+      transform: translateY(-168px);
+    }
+    30% {
+      transform: translateY(-112px);
+    }
+    40% {
+      transform: translateY(-112px);
+    }
+    50% {
+      transform: translateY(-56px);
+    }
+    60% {
+      transform: translateY(-56px);
+    }
+    70% {
+      transform: translateY(0px);
+    }
+    80% {
+      transform: translateY(0px);
+    }
+    90% {
+      transform: translateY(-224px);
+    }
+    100% {
+      transform: translateY(-224px);
+    }
+  }
+  
+  /* it's supported in latest version of tailwind */
+  .snap-center {
+    scroll-snap-align: center;
+  }
+
+  .text-white {
+      color: white;
+  }

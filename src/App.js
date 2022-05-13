@@ -1,7 +1,9 @@
+import IndSuperCreditCardClient from "./pages/IndSuperCreditCardClient";
+
 function App() {
   return (
     <div>
-      Hey hi!
+      <IndSuperCreditCardClient />
     </div>
   );
 }
