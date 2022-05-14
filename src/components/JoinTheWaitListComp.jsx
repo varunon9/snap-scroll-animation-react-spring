@@ -35,7 +35,7 @@ const JoinTheWaitListComp = (props) => {
         <span>{totalSubscribersCount}</span> users have already enrolled!
       </p>
       <p className="flex flex-col items-center my-2">
-        <img src="/images/sbm-bank.png" className="w-36" />
+        <img src="images/sbm-bank.png" className="w-36" />
       </p>
     </div>
   );

@@ -16,7 +16,7 @@ const SuperCreditCardSection = () => {
           ].map((item, index) => {
             return (
               <div key={index} className="flex items-center my-2">
-                <img src="/images/green-tick.png" className="w-4 h-4 mr-3" />
+                <img src="images/green-tick.png" className="w-4 h-4 mr-3" />
                 <span>{item}</span>
               </div>
             );

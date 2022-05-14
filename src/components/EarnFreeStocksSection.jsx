@@ -3,9 +3,9 @@ const EarnFreeStocksSection = () => {
     <div className="w-screen h-screen p-6 flex flex-col justify-end max-w-3xl m-auto z-1 snap-center">
       <div>
         <div className="flex">
-          <img src="/images/apple.png" className="w-[76px]" />
+          <img src="images/apple.png" className="w-[76px]" />
           <div className="flex-1" />
-          <img src="/images/amazon.png" className="w-[76px]" />
+          <img src="images/amazon.png" className="w-[76px]" />
         </div>
         <p className="font-sans text-2xl text-center">Shop at</p>
         <div
@@ -62,9 +62,9 @@ const EarnFreeStocksSection = () => {
         </div>
         <p className="font-sans text-2xl text-center">Stocks</p>
         <div className="flex">
-          <img src="/images/microsoft.png" className="w-[82px]" />
+          <img src="images/microsoft.png" className="w-[82px]" />
           <div className="flex-1" />
-          <img src="/images/netflix.png" className="w-[67px]" />
+          <img src="images/netflix.png" className="w-[67px]" />
         </div>
         <h1 className="font-sans text-4xl mb-2 mt-16 font-bold">
           Earn free stocks on every purchase at your favourite brands

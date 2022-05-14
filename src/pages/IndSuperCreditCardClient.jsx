@@ -260,7 +260,7 @@ const IndSuperCreditCardClient = () => {
             style={fivePercentSvgStyles}
           >
             <img
-              src="/images/five-percent-cashback.png"
+              src="images/five-percent-cashback.png"
               className="w-3/4 absolute top-1/4 md:top-1/3 md:left-1/4 max-w-xs"
             />
           </animated.div>

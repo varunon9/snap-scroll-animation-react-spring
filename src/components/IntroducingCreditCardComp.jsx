@@ -48,8 +48,8 @@ const IntroducingCreditCardComp = (
         className="flex flex-col items-center mt-8 mb-2"
         style={downArrowStyles}
       >
-        <img src="/images/arrow-down.png" className="w-6 animate-bounce" />
-        <img src="/images/arrow-down.png" className="w-6 animate-bounce" />
+        <img src="images/arrow-down.png" className="w-6 animate-bounce" />
+        <img src="images/arrow-down.png" className="w-6 animate-bounce" />
       </animated.div>
     </div>
   );
