@@ -13,3 +13,12 @@ https://developer.mozilla.org/en-US/docs/Web/CSS/scroll-snap-type
 ### react-spring
 
 https://react-spring.io/
+
+### Deployment
+
+1. `yarn deploy -m "Using relative path for images"`
+2. Visit https://varunon9.github.io/snap-scroll-animation-react-spring/
+
+### Blog
+
+https://medium.com/@varunon9/scroll-animation-using-css-scroll-snap-and-react-spring-7663d3925f7a
